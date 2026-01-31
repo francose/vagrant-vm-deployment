@@ -23,7 +23,6 @@ Test-Path "C:\HashiCorp\Vagrant\bin"
 vagrant --version
 ```
 
-## Run 
 
 
 

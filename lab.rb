@@ -2,17 +2,17 @@ Vagrant.configure("2") do |config|
   
   # Set the default provider to VMware
   config.vm.provider "vmware_desktop" do |v|
-    v.gui = true # Better for Kali if you need the desktop environment
-    v.linked_clone = true # Saves disk space and speeds up deployment
+    v.gui = true 
+    v.linked_clone = true 
   end
 
-  # --- ATTACKER: Kali Linux ---
+  # --- ATTACKER: ---
 #   config.vm.define "kali" do |kali|
 #     kali.vm.box = "kalilinux/kali-rolling"
 #     kali.vm.network "private_network", ip: "192.168.10.10"
 #   end
 
-  # --- TARGET: Metasploitable 2 (The Ultimate CEH Target) ---
+  # --- TARGET:
   config.vm.define "metasploitable" do |ms|
     # Note: Metasploitable is often distributed as a VMX/VMDK. 
     # This box is a community-maintained version for Vagrant.
