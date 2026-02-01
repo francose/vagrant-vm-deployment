@@ -26,7 +26,14 @@ vagrant --version
 ## Run & Deployment
 
 ```ps1
-vagrant up --provider vmware_desktop
+vagrant init
+
+```
+
+then you need to modify the Vagrantfile to make deployment.
+
+```ps1
+vagrant up --provider vmware_desktop 
 
 ```
 
