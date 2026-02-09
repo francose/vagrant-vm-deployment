@@ -56,3 +56,16 @@ vagrant up --provider vmware_desktop
 * To shut it down: Run vagrant halt.
 
 * To delete it all (start fresh): Run vagrant destroy.
+
+
+
+
+Quick Commands Recap
+
+Resume work: vagrant up
+
+Pause work: vagrant suspend
+
+Stop completely: vagrant halt
+
+Check status: vagrant status
